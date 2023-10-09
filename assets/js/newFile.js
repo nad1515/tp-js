@@ -1,8 +1,3 @@
-console.log("script chargé")
-
-let maTable = document.createElement("table");
-document.body.appendChild(maTable);
-
 for (let lignes = 1; lignes <= 10; lignes++) {
     let maLigne = document.createElement("tr");
     maTable.appendChild(maLigne);
@@ -10,10 +5,9 @@ for (let lignes = 1; lignes <= 10; lignes++) {
 
 
 
-    for (let cellules = 1; cellules <= 10; cellules++) {
+    for (let cellules = 0; cellules <= 10; cellules++) {
         let maCellule = document.createElement("td");
         maCellule.textContent = (cellules * lignes).toString();
         maLigne.appendChild(maCellule);
-        console.log("numero des cellule/multiplicateur:",lignes);
     }
 }

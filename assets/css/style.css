@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+   padding: auto;
+}
+table {
+    border: 1px solid black;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+tr, td {
+  border: 1px solid rgb(199, 19, 148);
+  padding: 5px;
+  
+}
+
+h1 {
+    text-align: center;
+}
